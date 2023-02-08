@@ -1,0 +1,9 @@
+C:\Users\javie\OneDrive\Documents\Wordle\Wordle.Services\bin\Debug\Wordle.Services.dll
+C:\Users\javie\OneDrive\Documents\Wordle\Wordle.Services\bin\Debug\Wordle.Services.pdb
+C:\Users\javie\OneDrive\Documents\Wordle\Wordle.Services\obj\Debug\Wordle.Services.csproj.AssemblyReference.cache
+C:\Users\javie\OneDrive\Documents\Wordle\Wordle.Services\obj\Debug\Wordle.Services.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Documents\Wordle\Wordle.Services\obj\Debug\Wordle.Services.dll
+C:\Users\javie\OneDrive\Documents\Wordle\Wordle.Services\obj\Debug\Wordle.Services.pdb
+C:\Users\javie\OneDrive\Documents\Wordle\Wordle.Services\bin\Debug\Wordle.Repositories.dll
+C:\Users\javie\OneDrive\Documents\Wordle\Wordle.Services\bin\Debug\Wordle.Repositories.pdb
+C:\Users\javie\OneDrive\Documents\Wordle\Wordle.Services\obj\Debug\Wordle.Services.csproj.CopyComplete
