@@ -56,6 +56,9 @@ namespace Wordle
                    
                 }
             }
+            Console.WriteLine();
+            Console.WriteLine("The word was: " + selectedWord);
+            System.Threading.Thread.Sleep(3000);
         }
     }
 }

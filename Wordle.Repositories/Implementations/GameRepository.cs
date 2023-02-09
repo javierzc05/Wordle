@@ -42,7 +42,6 @@ namespace Wordle.Repositories.Implementations
             if (playerGuess == selectedWord)
             {
                 Console.WriteLine("\nCorrect! You Won!");
-                System.Threading.Thread.Sleep(3000);
                 result = true;
             }
 
@@ -64,15 +63,17 @@ namespace Wordle.Repositories.Implementations
                     // If the letter is in the selected word but not in the correct position, change the text color to yellow
                     else
                     {
-                        alphabetMap[letter] = ConsoleColor.Yellow;
+                        if (alphabetMap[letter] != ConsoleColor.Green)
+                            alphabetMap[letter] = ConsoleColor.Yellow;
                         Console.ForegroundColor = ConsoleColor.Yellow;
                     }
                     Console.Write(letter);
                     Console.ResetColor();
                 }
-                // If the letter is not in the selected word, keep the text color unchanged
+                // If the letter is not in the selected word, gray out the letter
                 else
                 {
+                    alphabetMap[letter] = ConsoleColor.DarkGray;
                     Console.Write(letter);
                 }
             }
